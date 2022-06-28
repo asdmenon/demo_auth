@@ -1,0 +1,57 @@
+{
+	"MIDAuthSignResponse": {
+		"RequestDetails": {
+			"RequestID": "7a80c36f-95d1-4406-889e-13adc9fecf61",
+			"RequestType": "Authentication",
+			"ServiceProviderId": "1",
+			"Challenge": "{\"ServiceProviderID\":\"1\",\"Challenge\":\"8924fe62-4069-4609-acc7-564aced0e957\",\"Datetime\":\"7/6/2020 11:58:45PM\",\"Prompt\":\"PN APP\"}",
+			"CivilNo": "123456789012"
+		},
+		"ResultDetails": {
+			"ResultCode": "1",
+			"UserAction": "1",
+			"UserCivilNo": "123456789012",
+			"UserCertificate": "MIIFDzCCA/egAwIBAgIQCbWInLKPlxZDokKZmKXdxTANBgkqhkiG9w0BAQsFADBiMQswCQYDVQQGEwJLVzEzMDEGA1UEChMqVGhlIFB1YmxpYyBBdXRob3JpdHkgZm9yIENpdmlsIEluZm9ybWF0aW9uMR4wHAYDVQQDExVQQUNJIERlbW9uc3RyYXRpb24gQ0EwHhcNMTkwMTAyMDAwMDAwWhcNMjAwMTAxMjM1OTU5WjB8MQswCQYDVQQGEwJLVzEzMDEGA1UECg",
+			"SignatureData": "MIIIGgYJKoZIhvcNAQcCoIIICzCCCAcCAQExDzANBglghkgBZQMEAgEFADAzBgkqhkiG9w0BBwGgJgQkNTdhNDQ1ZWUtYTNhNS00ZTAxLTlhODctYjllYjhlM2NiZThioIIFLjCCBSowggQSoAMCAQICEFWva9YyvKMcjDSI7H3m8towDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCS1cxMzAxBggZYxCzAJBgNVBAYTAktXMTMwMQYDVQQKDCpUaGUgUHVibGljIEF1dG",
+			"HashAlgorithm": "SHA-2",
+			"SigningDatatype": "PKCS7",
+			"TransactionDate": "2020-07-06T23:58:45.18"
+		},
+		"PersonalData": {
+			"CivilID": "123456789012",
+			" اسم حامل البطاقة": "FullNameAr",
+			"FullNameEn": "CARD HOLDER NAME",
+			"NationalityEn": "KWT",
+			"كويتي": "NationalityAr",
+			"BirthDate": "1992-02-12T00:00:00",
+			"Gender": "M",
+			"MobileNumber": "55555555",
+			"EmailAddress": " test@test.com",
+			"BloodGroup": "O+",
+			"Photo": "iVBORw0KGgoAAAANSUhEUgAAAjMAAAHPCAIAAAApiMxqAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAHH+SURBVHhe7Z0HfBTXubfXSe69ubn5ktzcex0nduLETuK4d5vmhhvuuOACNmBAwvTeezG9CINNb6J3EIgmBEgISaj3iiTUe2+",
+			"CardExpiryDate": "2021-05-20T00:00:00",
+			"DocumentNumber": "K29999990",
+			"PassportNumber": "N010999992",
+			"GovData": {
+				"CivilIdExpiryDate": "2021-05-20T00:00:00",
+				"MOIReference ": "109999992",
+				"الشركة المتحدة المقاوالت": "SponsorName"
+			},
+			"Address": {
+				"Governerate": "المهبوله",
+				"Area": "المهبوله",
+				"PaciBuildingNumber": "12345678",
+				"FloorNumber": " ",
+				"BuildingNumber": "14",
+				"BlockNumber": "2",
+				"UnitNumber": "38",
+				"StreetName": "5507 شارع,",
+				"منزل": "UnitType"
+			}
+		},
+		"Signature": {
+			"SignatureData": "MIIIGgYJKoZIhvcNAQcCoIIICzCCCAcCAQExDzANBglghkgBZQMEAgEFADAzBgkqhkiG9w0BBwGgJgQkNTdhNDQ1ZWUtYTNhNS00ZTAxLTlhODctYjllYjhlM2NiZThioIIFLjCCBSowggQSoAMCAQICEFWva9YyvKMcjDSI7H3m8towDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCS1cxMzAxBggZYxCzAJBgNVBAYTAktXMTMwMQYDVQQKDCpUaGUgUHVibGljIEF1dG",
+			"SigningCertificate": "MIIFDzCCA/egAwIBAgIQCbWInLKPlxZDokKZmKXdxTANBgkqhkiG9w0BAQsFADBiMQswCQYDVQQGEwJLVzEzMDEGA1UEChMqVGhlIFB1YmxpYyBBdXRob3JpdHkgZm9yIENpdmlsIEluZm9ybWF0aW9uMR4wHAYDVQQDExVQQUNJIERlbW9uc3RyYXRpb24gQ0EwHhcNMTkwMTAyMDAwMDAwWhcNMjAwMTAxMjM1OTU5WjB8MQswCQYDVQQGEwJLVzEzMDEGA1UECg"
+		}
+	}
+}
