@@ -1,3 +1,4 @@
+from django.conf import settings
 import requests, json
 from django.shortcuts import render, redirect
 from django.core.cache import cache
@@ -9,7 +10,6 @@ from django.contrib import messages
 from django.views.decorators.csrf import csrf_exempt
 
 # Create your views here.
-CIVILID_AUTH_URL = ""
 
 
 def base_form(request):
@@ -28,8 +28,11 @@ def land_form(request):
             cleaned_data = auth_form.cleaned_data
             civ_id = cleaned_data["civ_id"]
 
-            # Set CIVILID_AUTH_URL in settings.py(base.py) without the endpoints
-            url = CIVILID_AUTH_URL + "InitiateAuthRequestPN/"
+            # Set CIVILID_AUTH_URL in settings.py  without the endpoints
+            print(settings.CIVILID_AUTH_URL)
+            url = settings.CIVILID_AUTH_URL + "InitiateAuthRequestPN/"
+
+            # Set callback url
             callback_url = "example.com"
             req = requests.post(
                 url, json={"personCivilNo": civ_id, "spCallbackURL": callback_url}

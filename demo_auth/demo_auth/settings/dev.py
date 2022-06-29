@@ -25,3 +25,4 @@ EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 SITE_ID = 2
 
 AUTH_PASSWORD_VALIDATORS = []
+CIVILID_AUTH_URL = ""
